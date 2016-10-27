@@ -18,11 +18,11 @@ import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
 redis = r.StrictRedis(host='localhost', port=6379, db=0,decode_responses=True)
-token = "TOKEN"
+token = "274820818:AAH4SHOtBjJiKGVSwVz_Ib9iE60I24sNp1Q"
 -- YOUR TOKEB HERE :[
 bot = telebot.TeleBot(token)
 opizo_email = 'besthkrboy@gmail.com'
-start_msg = '*hi mr :) dev by : @MuteTeam and @MutePuker*'
+start_msg = '*hi mr :) dev by : @wolfmine and @wolfmine*'
 
 
 
@@ -92,4 +92,4 @@ def rate(m):
 
 bot.polling(True)
 
-# dev by : @MutePuker
+# dev by : @Wolfmine
